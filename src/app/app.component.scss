@@ -1,0 +1,56 @@
+p {
+    margin: 0;
+    padding: 0;
+}
+
+h5 {
+    padding: 10px;
+    font-size: 30px;
+    margin: 0;
+    border: 1px solid gray;
+}
+
+.question {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.group {
+    margin-bottom: 20px;
+    width: 70vw;
+}
+
+.label {
+    background-color: gray;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.data {
+    background-color: green;
+    padding: 10px;
+}
+
+.teams {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.team {
+    padding: 20px;
+    margin: 40px;
+    border: 1px solid black;
+    cursor: pointer;
+
+    &--selected {
+        border-color: red;
+    }
+}
+
+.players {
+    display: flex;
+    justify-content: center;
+}
